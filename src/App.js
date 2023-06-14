@@ -9,7 +9,7 @@ function App() {
       <PlanLayout>
         <Routes>
           <Route path="/" element={<Welcome/>} />
-          <Route path="/invite" Component={<PhoneConfirmation/>} />
+          <Route path="/invite" element={<PhoneConfirmation/>} />
         </Routes>
       </PlanLayout>
     </BrowserRouter>
